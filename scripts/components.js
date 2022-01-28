@@ -1,4 +1,4 @@
-class Component {
+class Component { 
     constructor(width, height,color, x, y){
     this.width = width;
     this.height = height;
@@ -8,6 +8,7 @@ class Component {
     this.speedX = 0;
     this.speedY = 0;
     }
+    
 
     update() {
         const ctx = myGameArea.context = myGameArea.context;
